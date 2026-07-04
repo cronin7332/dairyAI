@@ -1,0 +1,20 @@
+# Secrets — never commit real API keys
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Vector store / cache
+chroma_db/
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large working files (keep only the toy demo samples in data/)
+*.tmp
